@@ -1,0 +1,129 @@
+@import "./vendor/normalize";
+@import "./partials/typography";
+@import "./partials/colors";
+@import "./partials/mixins";
+
+.navbar{
+    width: auto;
+    height: 35px;
+    padding: 40px;
+    background-color: $darker-background;
+    font-family: $primary-font;
+    text-transform: uppercase;
+    color: $primary-font-color;
+    }
+
+    .name{
+      color: $taskbar-font-color;
+      font-size: 20px;
+      margin-left: 30px;
+      letter-spacing: 2px;
+    }
+
+    .rightfloat{
+      float: right;
+    }
+
+    .righthandnav{
+      font-size: 20px;
+      text-decoration: none;
+      color: $taskbar-font-color;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 15px;
+  }
+
+.one{
+    text-align: center;
+    float: left;
+    width: 50%;
+    margin-top: 200px;
+
+    header{
+
+      h1{
+        @include orangeheading();
+      }
+
+      h3{
+      font-size: 70px;
+      text-transform: uppercase;
+      margin: 0;
+      letter-spacing: 7px;
+      font-family: $primary-font;
+      }
+
+      .star{
+      font-size: 35px;
+      margin: 3px;
+      color: $primary-font-color;
+      }
+    }
+
+    article{
+
+      .lorem{
+      margin-top: 0px;
+      font-size: 35px;
+      letter-spacing: auto;
+      word-spacing: auto;
+      line-height: 45px;
+      font-family: $primary-font;
+      color: $primary-font-color;
+      }
+    }
+
+      a{
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 25px;
+      font-family: $primary-font;
+      color: $secondary-font-color;
+  }
+}
+
+.two{
+  float: right;
+  width: 50%;
+  margin-top: 180px;
+}
+
+.copyrightbanner{
+  background-color: $dark-background;
+  height: 40px;
+  padding-top: 20px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  font-family: $title;
+  color: $taskbar-font-color;
+
+  .crtextleft{
+    float: left;
+    width: 50%;
+    }
+  .crtextright{
+    float: right;
+    width: 50%;
+  } 
+}
+
+.placeholder{
+  @include placeholdertext;
+}
+
+// Medium screens and up
+@media (min-width: 768px) {
+  .container {
+    background-color: yellow;
+  }
+}
+// Big screens
+@media (min-width: 1024px) {
+  .container {
+    background-color: navy;
+  }
+}
+
+ 

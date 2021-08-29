@@ -1,0 +1,24 @@
+//required bootstrap partials
+
+@import "./vendor/bootstrap/scss/functions";
+@import "./vendor/bootstrap/scss/variables";
+@import "./vendor/bootstrap/scss/mixins";
+@import "./vendor/bootstrap/scss/jumbotron";
+
+//custom bootstrap override
+
+$theme-colors:(
+    "primary": #ff6347
+);
+
+$btn-border-radius: 10rem;
+
+$font-family-base: "Electrolize", sans-serif;
+
+$jumbotron-bg: #ffe5d1;
+
+
+//set values
+
+@import "./vendor/bootstrap/scss/bootstrap";
+

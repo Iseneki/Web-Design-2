@@ -1,0 +1,2 @@
+@import url(../vendor/_normalize.scss);@import url(./partials/_typography.scss);.opening{height:120px;background-color:#b1b1b1;margin:10px;margin-top:0px}.white{background-color:#ececec}.gray{background-color:#313131;color:white}.cyan{background-color:#43b9b9;color:white;-webkit-box-align:center;-ms-flex-align:center;align-items:center}img{float:right}button{color:white;background-color:#5f81f1;width:100%}.endtextbanner{margin:20px;height:30px;width:100%;background-color:#a1c7a1}
+/*# sourceMappingURL=styles.css.map */

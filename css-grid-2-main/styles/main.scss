@@ -1,0 +1,89 @@
+@import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixins';
+@import './partials/typography';
+
+body {
+  max-width: 1170px;
+}
+figure {
+  margin: 0;
+}
+
+// Your assignment code starts here
+.menu{
+  display: grid;
+  width: auto;
+  .thumbnails{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .discover-menu {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+
+    h2{
+      font-size: 2em;
+      margin: 0px;
+      letter-spacing: 3px;
+    }
+
+    h3{
+      font-size: 2em;
+      margin: 0;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    figure{
+      margin: 0;
+    }
+
+    p{
+      font-size: 2em;
+      margin: 20px;
+    }
+
+    a{
+      text-transform: uppercase;
+      margin: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  // Your assignment's code for large screens starts here
+.menu {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+
+  .thumbnails{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    height: 50%;
+  }
+  .discover-menu{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+    h2{
+      font-size: 3em;
+      letter-spacing: 5px;
+    }
+
+    h3{
+      font-size: 3em;
+    }
+  }
+}
+}

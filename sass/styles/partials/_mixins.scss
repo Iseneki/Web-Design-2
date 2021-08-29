@@ -1,0 +1,14 @@
+@mixin orangeheading() {
+    font-size: 65px;
+    margin: 0;
+    line-height: 40px;
+    font-family: $heading;
+    color: $secondary-font-color;
+}
+
+@mixin placeholdertext() {
+    text-align: center;
+    font-size: 40px;
+    font-family: $primary-font;
+    text-transform: uppercase;
+}
