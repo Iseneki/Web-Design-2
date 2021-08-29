@@ -1,2 +1,2 @@
 # Web Design 2
- Dev environment setup
+ Dev Environment Setup
